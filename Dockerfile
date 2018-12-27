@@ -1,5 +1,5 @@
 #De la imagen que partimos
-FROM frolvlad/alpine-oraclejdk8:slim
+FROM openjdk:8-jre-alpine
 
 #Directorio de trabajo
 WORKDIR /app
